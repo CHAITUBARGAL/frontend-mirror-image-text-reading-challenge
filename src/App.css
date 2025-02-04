@@ -1,0 +1,52 @@
+
+/* App.css */
+.app {
+  text-align: center;
+  background-color: yellow;
+  color: blue;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+}
+
+.mirror-text {
+  font-size: 2em;
+  transform: scaleX(-1);
+  margin: 20px;
+  padding: 10px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+input {
+  padding: 10px;
+  font-size: 1.2em;
+  margin: 10px;
+  border: 2px solid blue;
+  border-radius: 5px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 1.2em;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+p {
+  font-size: 1.2em;
+  margin-top: 10px;
+}
